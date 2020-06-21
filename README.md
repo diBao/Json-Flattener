@@ -57,7 +57,7 @@ Sample Json String **Input**:
 ```
 {"a1": 1, "b1": {"b2": 21, "a2": {"a3": 221, "b3": {"a4": false, "b4": {"z5": 222, "y5": true}}}, "c2": "2nd layer"}, "c1": "1st layer"}
 ```
-**Output**:
+**Output:**
 ```
 {
     "a1": 1,
@@ -69,4 +69,14 @@ Sample Json String **Input**:
     "b1.c2": "2nd layer",
     "c1": "1st layer"
 }
+```
+------------------
+**Invalid** Json String **Input**:
+```
+{"a"}
+```
+
+**Output:**
+```
+Input json format is not correct, please try again.
 ```
