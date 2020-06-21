@@ -5,14 +5,20 @@ Json Flattener without handling array
 - python 3.6 or above 
 
 ## How to run
-```python JsonFlattener.py```
+Run command: ```python JsonFlattener.py```
 
-1 Follow the prompt message to enter the type(json string or json file) of input data: enter ```file``` or ```string```
+> Supported commands input:
+> - exit: exit the running program
+> - file: choose(switch) to file(path) input mode
+> - string: choose(switch) to json string input mode
+
+
+1. Follow the prompt message to enter the type(json string or json file) of input data: enter ```file``` or ```string```
 (you can switch later by enter **file** or **string** anytime)
 
-2 Enter json file or string occordingly with next prompt, and repeat step 2.
+2. Enter json file or string occordingly with next prompt, and repeat step 2.
 
-3 After finish all flatten work, enter **exit** to exit the program.
+3. After finish all flatten work, enter **exit** to exit the program.
 
 
 Test example:
