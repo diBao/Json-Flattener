@@ -1,0 +1,6 @@
+{
+    "a1.a2.a3.a4.a5": true,
+    "a1.c2": "2nd layer",
+    "z1": "1st layer",
+    "b1.b2.b3.b4.b5": false
+}
