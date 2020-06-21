@@ -7,7 +7,7 @@ Json Flattener without handling array
 ## How to run
 Run command: ```python JsonFlattener.py```
 
-> Supported commands input:
+> Supported input:
 > - exit: exit the running program
 > - file: choose(switch) to file(path) input mode
 > - string: choose(switch) to json string input mode
