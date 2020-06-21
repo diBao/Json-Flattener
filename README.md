@@ -11,6 +11,8 @@ Run command: ```python JsonFlattener.py```
 > - exit: exit the running program
 > - file: choose(switch) to file(path) input mode
 > - string: choose(switch) to json string input mode
+> - valid json file path under "file" mode
+> - valid json string under "string" mode
 
 
 1. Follow the prompt message to enter the type(json string or json file) of input data: enter ```file``` or ```string```
