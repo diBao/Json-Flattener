@@ -4,6 +4,10 @@ Json Flattener without handling array
 ## Prerequisite
 - python 3.6 or above 
 
+## Supported JSON Input
+- JSON File
+- JSON String
+
 ## How to run
 Run command: ```python JsonFlattener.py```
 
