@@ -4,12 +4,15 @@ import sys, traceback
 class JsonFlattener:
     def flatten(self, jsonObject):
         jsonOutput = {}
-
+        
+        # dfs the nested json structure
         def dfs(para, prefix = ""):
             if type(para) is dict:
+                # If there is nested structure inside of para
                 for field in para:
                     dfs(para[field], prefix + field + '.')
             else:
+                # There is no nested structure inside of para
                 jsonOutput[prefix[:-1]] = para
 
         dfs(jsonObject)
